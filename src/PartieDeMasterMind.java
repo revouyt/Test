@@ -21,7 +21,7 @@ public class PartieDeMasterMind {
 		 {	 
 		 combinaison2 = joueur2.combinaison;
 		 comparerCombinaison(combinaison1,combinaison2);
-		 mettePions;
+		 mettrePions;
 		 }
 		}
 		
