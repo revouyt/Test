@@ -6,9 +6,14 @@
  */
 
 public class Player {
+	
 	private Code CodePlayer;
+	
+	/**
+	 * Builder of a Player who have a code
+	 */
 	public Player()
 	{
-		
+		Code code;
 	}
 }

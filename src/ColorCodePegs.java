@@ -12,4 +12,8 @@ RED,
 PURPLE,
 ORANGE,
 YELLOW;
+
+public static ColorCodePegs getRandom() {
+    return values()[(int) (Math.random() * values().length)];
+}
 }
