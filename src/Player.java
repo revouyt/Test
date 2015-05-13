@@ -9,6 +9,7 @@ public class Player {
 	
 	private Code CodePlayer;
 	
+	private int nbCode;
 	/**
 	 * Builder of a Player who have a code
 	 */

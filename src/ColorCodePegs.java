@@ -1,4 +1,4 @@
-
+import java.util.Random;
 /**
  * enum that describes the color of the code pegs
  * code pegs are used to make the code
@@ -16,4 +16,5 @@ YELLOW;
 public static ColorCodePegs getRandom() {
     return values()[(int) (Math.random() * values().length)];
 }
+
 }
