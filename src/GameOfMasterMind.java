@@ -18,7 +18,10 @@ public class GameOfMasterMind {
 	
 	public void play ()
 	{
-		
+		Code codeADeviner = new ColorCodePegs[4];
+		Player Player = new Player();
+		for (int test=0;Player.CodePlayer == codeADeviner  && test <=  NUMBER_OF_TESTS ;test++ )
+			Code Player.CodePlayer = new ColorCodePegs[4];
 		EndOfTheGame();
 	}
 		
@@ -29,8 +32,11 @@ public class GameOfMasterMind {
 	 *  represents what happen at this end of the game
 	 *  
 	 */
-	public void EndOfTheGame()
+	public boolean EndOfTheGame()
 	{
-		
+		if (CounterColorKeyPegsRed==4)
+			return true;
+		return false;
+			
 	}
 }

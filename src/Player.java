@@ -7,14 +7,16 @@
 
 public class Player {
 	
+	
 	private Code CodePlayer;
 	
-	private int nbCode;
 	/**
 	 * Builder of a Player who have a code
 	 */
 	public Player()
 	{
-		Code code;
+		
+		ColorCodePegs[] CodePlayer = new ColorCodePegs[4];
+		
 	}
 }
