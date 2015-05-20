@@ -1,6 +1,6 @@
 import java.util.Random;
 /**
- * enum that describes the color of the code pegs
+ * enumeration that describes the color of the code pegs
  * code pegs are used to make the code
  * @author revouyt
  *

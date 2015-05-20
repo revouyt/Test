@@ -8,15 +8,20 @@
 public class Player {
 	
 	
-	private Code CodePlayer;
+	/**
+	 * 
+	 */
+	Code codePlayer = new Code();
 	
+
 	/**
 	 * Builder of a Player who have a code
 	 */
 	public Player()
+	
 	{
 		
-		ColorCodePegs[] CodePlayer = new ColorCodePegs[4];
+		Code codePlayer = new Code();
 		
 	}
 }
